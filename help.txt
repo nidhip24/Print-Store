@@ -1,0 +1,33 @@
+FINAL PRODUCT LIST 
+
+1	Passport cover  - 450 (2cr)
+2	Travel cover - 650 (2cr)
+3	Keychain - 250 (1cr)
+4	Mens wallet - 550 (1cr)
+5	Ladies wallet  -550 (2cr)
+7	Card holder - 350 (1cr)
+8	Cable holder - 300
+12	Mouse pad - sublimation (no charm), personalised(yes, 1cr)
+19	Puzzel
+17	Mugs
+18	Pillows
+
+9,13,14 - to be deleted from product content
+
+13	Cap - Red yellow blue white black  
+14	Engraved Diary 
+                                        15	Personalised Diary (Delete)
+16	Card holder case 
+10	Mobile /Gadget Pouch - 850 (1cr)
+11	Badges - 44 mm,58 mm , 75mm
+9	Sunglass Case  - 500 (1cr)
+6	Luggage tag -300 (1cr)
+
+Engraved Diary 
+
+
+//all order 
+//items list
+//admin panel show charms and text
+
+//productdetails remove please make sure your text is within the limit

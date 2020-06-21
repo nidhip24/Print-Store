@@ -1,0 +1,386 @@
+.bgcolor{
+	background-color: white;
+    color: black;
+}
+
+@font-face {
+font-family: "awesometitle";
+src: url("font/awesometitle-webfont.woff2");
+src: url("font/BrandonGrotesque-Bold.woff");
+}
+
+@font-face {
+font-family: "brandon";
+src: url("font/BrandonGrotesque-Bold.woff");
+}
+.pink{
+    background-color: #D5017E !important;
+}
+/*
+
+.slider{
+	height: 600px !important;
+}
+
+.slides{
+	height: 600px !important;	
+}*/
+
+ html,body {    
+/*    min-height: 100%;*/
+    height: 100vh;
+
+    /*font-family: 'awesometitle',Arial, Helvetica, sans-serif;*/
+}
+.contact-us{
+    font-size: 16px !important;
+    line-height: 1.8 !important;
+    font-weight: 200 !important;
+    letter-spacing: 5px !important;
+    font-family: 'brandon',Arial, Helvetica, sans-serif;
+}
+
+.heatwo{
+  font-size: 20px !important;
+    line-height: 1.8 !important;
+    font-weight: 200 !important;
+    letter-spacing: 5px !important;
+    font-family: 'brandon',Arial, Helvetica, sans-serif;
+}
+
+.hea{
+  font-size: 32px !important;
+  font-weight: 200 !important;
+  letter-spacing: 5px !important;
+  font-family: 'brandon',Arial, Helvetica, sans-serif;
+
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #e3e3e3; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+.hea-spn{
+  background:#fff;
+  padding:0 10px;
+}
+.dropdown-content{
+    width: 400px !important;
+}
+
+.default-text-color{
+    color: black !important;
+}
+
+.nav-menu-p{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    margin-left: 8px; 
+    margin-right: 8px;
+    font-size: 15px !important;
+}
+
+.back-color{
+    background-color: #f5f5f5  !important;  /*#f5f5f5 */
+}
+
+
+.card-img{
+/*    /width: 30px !important;*/
+    height: 300px !important;
+}
+
+.nomargin{
+    margin: 0px;
+}
+
+.nolrmargin{
+    margin-left: 0px;
+    margin-right:  0px;
+}
+.lrmargin{
+    margin-left: 12px;
+    margin-right:  10px;
+}
+
+.objectcover{
+    object-fit: cover;
+}
+
+.catimg{
+    height: 150px;
+    width: 150px;
+    object-fit: cover !important;
+}
+
+.fivemargin{
+    margin: 0px;
+    margin-bottom: 10px !important;
+}
+
+.fivemarginup{
+    margin: 0px;
+    margin-top: 10px;
+}
+
+/*sadadadjh*/
+.modal{
+/*    width: 40% !important;*/
+}
+
+.amt{
+    margin-top:0px !important;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.no-margin{
+    margin:0px !important;
+}
+
+.tcpadding{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.cpadding{
+    padding-left: 15px;
+}
+
+
+.cart-image{
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+
+.card-image2{
+  max-height: 150px !important;
+  min-height: 150px !important;
+
+  max-width: 150px !important;
+  min-width: 150px !important;
+}
+
+.img-zoom {
+	height: 220px;
+    width: 310px;
+}
+.cus-card-img{
+    overflow: hidden;
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.0s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.img-card-size{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .modal{
+        width: 80% !important;
+    }  
+    .sidesmall{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    .sideimg{
+        height: 60px !important;
+        width: 60px !important;
+        /*display: block;*/
+        object-fit: cover !important;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .modal{
+        width: 40% !important;
+    }
+    .sideimg{
+        height: 100px;
+        width: 100px;
+        /*display: block;*/
+        object-fit: cover !important;
+    }
+}
+
+
+/* label color */
+.input-field label {
+color: #000 !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+color: #000 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+border-bottom: 1px solid #000 !important;
+box-shadow: 0 1px 0 0 #000 !important;
+}
+ /* valid color */
+.input-field input[type=text].valid {
+border-bottom: 1px solid #000 !important;
+box-shadow: 0 1px 0 0 #000 !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+border-bottom: 1px solid #ff0808 !important;
+box-shadow: 0 1px 0 0 #ff0808 !important;
+}
+ /* icon prefix focus color */
+.input-field .prefix.active {
+color: #000 !important;
+}
+
+.drop-d:hover{
+    color: #e91e63 !important;
+}
+
+.drop-d-back:hover{
+    background-color:  #e91e63 !important;
+}
+
+
+/* [1] The container */
+.img-hover-zoom {
+  /*height: 300px;  [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+
+.search {
+  display: table;
+}
+.search input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 28px;
+  min-width: 0;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+  line-height: 18px;
+  margin: 5px 0;
+  font-size: 14px;
+  -webkit-appearance: none;
+  transition: all .6s ease;
+  cursor: pointer;
+  color: #fff;
+}
+.search input + div {
+  position: relative;
+  height: 28px;
+  width: 100%;
+  margin: -28px 0 0 0;
+}
+.search input + div svg {
+  display: block;
+  position: absolute;
+  height: 28px;
+  width: 160px;
+  right: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-dashoffset: 271.908;
+  stroke-dasharray: 59 212.908;
+  transition: all .6s ease;
+}
+.search input:not(:placeholder-shown), .search input:focus {
+  width: 160px;
+  padding: 0 4px;
+  cursor: text;
+}
+.search input:not(:placeholder-shown) + div svg, .search input:focus + div svg {
+  stroke-dasharray: 150 212.908;
+  stroke-dashoffset: 300;
+}
+
+::-moz-selection {
+  background: rgba(56, 229, 245, 0.4);
+}
+
+::selection {
+  background: rgba(56, 229, 245, 0.4);
+}
+
+::-moz-selection {
+  background: rgba(56, 229, 245, 0.4);
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+.chip-img{
+  height: 28px !important;
+  width: 28px !important;
+  /*margin-top: 1px !important;*/
+}
+
+
+#social #container {
+  text-align: center;
+}
+
+#social #container ul {
+  float: left;
+}
+
+#social #container ul li {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.strp{
+  background:
+     linear-gradient(
+       to left,
+       #0C98D7 0, 
+       #0C98D7 33.3%,
+       #FFEB00 33.3%, 
+       #FFEB00 66.6%, 
+       #E50079 66.6%, 
+       #E50079 )bottom no-repeat;
+   background-size:100% 4px ;
+}

@@ -1,0 +1,53 @@
+.back-color-blak{
+    background-color : #F3F3F3;
+}
+
+.content-show{
+  height: 100%;  
+}
+
+.sidenavv {
+  height: 100%;
+  width: inherit;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenavv a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenavv a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavv {padding-top: 15px;}
+  .sidenavv a {font-size: 18px;}
+}
+
+.nomargin{
+    margin:0px !important;
+}
+
+.cart-image{
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
